@@ -40,12 +40,13 @@ header .top-header{
     align-items: center;
     justify-content: space-between;
 }
-header .top-header button{
+header .top-header .again{
     border: none;
     outline: none;
     padding: 10px 15px;
     font-weight: bolder;
     color: #fff;
+    cursor: pointer;
     background-color: #799b5f;
     font-family: 'Montserrat', sans-serif;
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Kanit&family=Maven+Pro&family=Montserrat&family=Sen:wght@400;700&display=swap');
 
+
 /*Here we are going to traite our project which is to guess a number 
 and first of all we're going to start by the reset and after it gonna be our body in this first commit*/
 
@@ -15,6 +16,49 @@ body{
     width: 100%;
     height: 100vh;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
     background-color: #e8e4c9;
-    font-family: 'GFS Neohellenic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* This section contains all the parts of our section */
+section{
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #000;
+}
+/* The header part */
+header{
+    padding: 30px 30px;
+    border-bottom: 4px solid #799b5f;
+}
+header .top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .top-header button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #799b5f;
+    font-family: 'Montserrat', sans-serif;
+}
+header .middle-header{
+    margin-top: 40px;
+    text-align: center;
+}
+header .number{
+    color: #fff;
+    padding: 8px 12px;
+    width: fit-content;
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 10px;
+    background-color: #000;
 }

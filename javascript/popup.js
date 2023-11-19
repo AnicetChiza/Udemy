@@ -10,9 +10,8 @@ console.log(btnOpenModal);
 
 for(let i = 0; i < btnOpenModal.length; i++)
     btnOpenModal[i].addEventListener('click', function(){
-        console.log('Right');
-        modal.classList.remove('none');
-        
+        modal.classList.remove('hidden');
+        overAll.classList.remove('hidden');
 });
 
 

@@ -21,7 +21,13 @@ body{
 }
 
 /* We are going to traite our buttons and all the other component of our project*/
-.first-button, .second-button, .third-button{
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button{
     border: none;
     outline: none;
     color: white;

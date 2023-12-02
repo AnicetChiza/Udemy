@@ -19,14 +19,79 @@ body{
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(45deg, #753682, #bf2e34);
+    /*background: linear-gradient(45deg, #753682, #bf2e34);*/
 }
 
 /* This is our main part which is our brain part */
 main{
-    width: 80%;
+    width: 50%;
     height: 80vh;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/* This is for player 1*/
+.player--0{
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(141, 113, 134);
+}
+
+.player--0 h2{
+    letter-spacing: 5px;
+    margin-top: 40px;
+}
+.player--0 .score{
+    color: rgb(180, 29, 29);
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.player--0 .current{
+    color: white;
+    background-color: #753682;
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.player--0 .current .current-score{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+/* This is for player 2*/
+.player--1{
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgba(160, 98, 48, 0.37);
+}
+.player--1 h2{
+    letter-spacing: 5px;
+    margin-top: 40px;
+}
+.player--1 .score{
+    color: rgb(180, 29, 29);
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.player--1 .current{
+    color: white;
+    background-color: #753682;
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.player--1 .current .current-score{
+    font-size: 18px;
+    margin-top: 5px;
 }

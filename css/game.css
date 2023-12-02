@@ -21,3 +21,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(45deg, #753682, #bf2e34);
 }
+
+/* This is our main part which is our brain part */
+main{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

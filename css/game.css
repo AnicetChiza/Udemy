@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Kanit&family=Maven+Pro&family=Montserrat&family=Sen:wght@400;700&display=swap');
+
+
+/*Here we are going to traite our project which is to guess a number 
+and first of all we're going to start by the reset and after it gonna be our body in this first commit*/
+
+*,
+::after, ::before{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(45deg, #753682, #bf2e34);
+}

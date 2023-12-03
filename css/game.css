@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    /*background: linear-gradient(45deg, #753682, #bf2e34);*/
+    
 }
 
 /* This is our main part which is our brain part */
@@ -30,6 +30,9 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #fff, #000);
+    /*background: linear-gradient(45deg, rgb(141, 113, 134), rgb(160, 98, 48, 0.37));*/
 }
 
 /* This is for player 1*/
@@ -37,10 +40,10 @@ main{
     width: 100%;
     padding: 20px 20px;
     text-align: center;
-    background-color: rgb(141, 113, 134);
 }
 
 .player--0 h2{
+    color: #fff;
     letter-spacing: 5px;
     margin-top: 40px;
 }
@@ -51,28 +54,56 @@ main{
     font-weight: bolder;
 }
 .player--0 .current{
-    color: white;
-    background-color: #753682;
+    color: #000;
+    font-weight: bolder;
+    background-color: #fff;
     width: fit-content;
     margin: auto;
     margin-top: 200px;
     padding: 20px 20px;
     border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #000;
 }
 .player--0 .current .current-score{
     font-size: 18px;
     margin-top: 5px;
 }
 
+/*************This part is for dice Elements*************/
+.dice-elements{
+    margin-top: 40px;
+    padding: 20px 20px;
+    text-align: center;
+}
+.dice-elements .dice{
+    width: 70px;
+    height: 70px;
+    margin-top: 70px;    
+}
+.dice-elements .btn{
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.223);
+}
+.dice-elements .btn--roll{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
 
 /* This is for player 2*/
 .player--1{
     width: 100%;
     padding: 20px 20px;
     text-align: center;
-    background-color: rgba(160, 98, 48, 0.37);
 }
 .player--1 h2{
+    color: #fff;
     letter-spacing: 5px;
     margin-top: 40px;
 }
@@ -83,15 +114,21 @@ main{
     font-weight: bolder;
 }
 .player--1 .current{
-    color: white;
-    background-color: #753682;
+    color: #000;
+    font-weight: bolder;
+    background-color: #fff;
     width: fit-content;
     margin: auto;
     margin-top: 200px;
     padding: 20px 20px;
     border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #000;
 }
 .player--1 .current .current-score{
     font-size: 18px;
     margin-top: 5px;
+}
+
+/*.hidden{
+    display: none;
 }
